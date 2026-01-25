@@ -31,6 +31,30 @@ ul {
     padding-left: 20px;
 }
 
+/* IPL Projects Styling */
+section nav ul {
+    list-style: none;          /* remove square bullets */
+    padding-left: 0;
+}
+
+section nav ul li {
+    margin: 6px 0;
+    font-weight: 500;
+}
+
+section nav ul li::before {
+    content: "✔ ";
+    color: black;
+   
+}
+
+/* Project Links */
+section nav ul li a {
+    text-decoration: none;
+    color: #030204;
+    line-height: 2;
+}
+
 /* Footer */
 footer {
     background-color: #222;
