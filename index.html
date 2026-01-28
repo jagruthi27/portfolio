@@ -2,69 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagruthi Buchala | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-
-    <!-- Header -->
+    <!-- Navigation -->
     <header>
-        <h1>BUCHALA JAGRUTHI</h1>
-        <p>Web Development Intern | ShadowFox</p>
+        <nav>
+            <div class="logo">Jagruthi</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
     </header>
 
-    <!-- About Section -->
-    <section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Hello, I'm Jagruthi Buchala</h1>
+        <p>Aspiring Web Developer | Frontend Enthusiast</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
         <h2>About Me</h2>
-        <p>
-            I am a beginner web developer and this is my first internship.
-            I am learning HTML, CSS, and JavaScript to build responsive websites.
-        </p>
+        <p>I am a passionate developer with skills in HTML, CSS, JavaScript, java,prompt engineering,sql and Python. A focused and results-driven individual with a passion for IT.I thrive on solving problems, building practical solutions, and continuously learning new skills. My approach combines creativity with logic to deliver projects that are both efficient and impactful. I take ownership of my work, value collaboration, and aim to make a measurable difference through every project I undertake.</p>
     </section>
 
-    <!-- Skills Section -->
-    <section>
+    <!-- Skills -->
+    <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript (Basic)</li>
-        </ul>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">React.js</div>   
+            <div class="skill">Prompt engineering</div>
+            <div class="skill">java</div>
+            <div class="skill">Sql</div>
+
+        </div>
     </section>
 
-    <!-- Projects Section -->
-    <section>
+    <!-- Projects -->
+    <section id="projects">
         <h2>Projects</h2>
-        <p>✔ Personal Portfolio Website</p>
-        <p>✔ Simple Web Pages</p>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive portfolio to showcase my work.This portfolio showcases my projects, skills, and practical experience . I focus on creating solutions that combine innovation with real-world usability. Each project here reflects my problem-solving approach, technical expertise, and dedication to learning and improving continuously. This website is a snapshot of my work, my capabilities, and my commitment to turning ideas into functional results.</p>
+                
+            </div>
+           
+            <div class="project-card">
+                <h3>IPL Fan Website – RCB Advanced Website </h3>
+                <p> This project is a dynamic fan website for the Royal Challengers Bangalore (RCB) IPL team. It features sections including About RCB, Team Players, Match Schedule, Team Statistics, and a Fan Zone to engage visitors interactively. The website is designed for clarity and usability, showcasing my skills in web development, responsive design, and data presentation. This project highlights my ability to translate real-world sports data into a functional, user-friendly web platform.</p>
+            </div>
+            <div class="project-card">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="IPL-Team/index.html">IPL Team Project</a>
-                </li>
-                <li>
-                    <a href="IPL-Team-Advanced/index.html">IPL Team Advanced Project</a>
-                </li>
-            </ul>
-        </nav>
+                <h3>Ultrasonic Navigation Aid</h3>
+                <p>Real-time navigation aid project for visually impaired.The Ultrasonic Navigation Aid for Visually Impaired is a real-time assistive device designed to enhance mobility and safety. It uses ultrasonic sensors to detect obstacles in the user’s path and provides immediate feedback, enabling visually impaired individuals to navigate environments independently. The system is compact, responsive, and built with user-friendly functionality, focusing on practical applications in daily life. This project demonstrates the integration of sensor technology, real-time processing, and human-centric design to solve a real-world problem.</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
     </section>
 
-    <!-- Contact Section -->
-    <section>
-        <h2>Contact</h2>
-        <p>Email: jagruthibuchala@gmail.com</p>
-        <p>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/buchala-jagruthi" target="_blank">
-                linkedin.com/in/buchala-jagruthi
-            </a>
-        </p>
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Internship: Shadow Fox - Web Development Intern</p>
+        <p>Worked on building interactive UI and responsive web apps.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: jagruthibuchala@gmailcom</p>
+        <p>Phone: +91-7095819708</p>
+        <p>Connect on <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2025 BUCHALA JAGRUTHI</p>
+        <p>&copy; 2026 Jagruthi Buchala. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
